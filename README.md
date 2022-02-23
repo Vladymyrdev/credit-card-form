@@ -30,3 +30,5 @@ VISA or MASTERCARD.
 VISA card number must be started with 4 and MASTERCARD must be started with 5.
 In the second layout credit card back facing been shown. There is be one inputs for typing CCV. CCV must be 3 digits length. Date must be MM/YYYY format.
 Users can switch between card faces by clicking on the input fields while keeping the current information.
+
+After you all fill in the fields on the credit card, then a GET request is sent to https://mocki.io/v1/a5ae8585-b42d-486b-a4ff-25ebfebbaddf is here to check if the card number exists or not. If it exists, a message is displayed "Payment is a success", if not, then the message "Payment failed" is displayed
